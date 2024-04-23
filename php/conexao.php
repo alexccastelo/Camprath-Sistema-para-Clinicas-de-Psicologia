@@ -3,7 +3,7 @@
 $hostname = "localhost";
 $bd = "clinicaperes";
 $usuario = "root";
-$senha = "";
+$senha = "123456";
 
 $mysqli = new mysqli ($hostname, $usuario, $senha, $bd);
 if ($mysqli->connect_errno) {
